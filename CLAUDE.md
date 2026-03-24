@@ -162,6 +162,8 @@ Sub-keys: `-font-family`, `-font-weight`, `-font-size`, `-line-height`, `-letter
 ## Typography Rules
 
 - **IMPORTANT:** Never hardcode font sizes, weights, or line-heights. Always use the CSS token variables
+- **IMPORTANT:** Use `Header/Section` (`--header/section/header-section-*`, SemiBold 600, 16px) as the default token for **Title text** in UI components, cards, and section headings
+- **IMPORTANT:** Use `Body/Page` (`--body/page/body-page-*`, Regular 400, 16px) as the default token for **Body text** in paragraphs, descriptions, and content areas
 - **Display** styles are for page/section titles only — never use for body content
 - **Header** styles are for component headings, card titles, and UI labels
 - **Body** styles are for paragraphs, descriptions, and supporting text
